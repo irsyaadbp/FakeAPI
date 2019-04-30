@@ -1,5 +1,5 @@
 # FakeAPI
-RESTful API with ExpressJS
+RESTful API with NodeJS + ExpressJS + MySQL
 
 ## Getting Started
 
