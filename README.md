@@ -37,5 +37,5 @@ CREATE TABLE `tb_admin` (
 ### Run
 just type this on your terminal
 ```
-node server.js
+$ node server.js
 ```
