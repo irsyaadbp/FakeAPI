@@ -2,9 +2,14 @@
 RESTful API with ExpressJS
 
 ## Getting Started
-``` git clone https://github.com/masirsyaad/FakeAPI.git```
 
-## Change Database
+### Clone Repository
+```
+$ git clone https://github.com/masirsyaad/FakeAPI.git
+$ cd FakeAPI 
+```
+
+### Change Database
 change your database in `con.js`
 
 ```
@@ -18,7 +23,7 @@ var con = mysql.createConnection({
 ...
 ```
 
-## Run
+### Run
 just type this on your terminal
 ```
 node server.js
