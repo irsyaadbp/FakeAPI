@@ -23,6 +23,17 @@ var con = mysql.createConnection({
 ...
 ```
 
+### Create Table
+```
+CREATE TABLE `tb_admin` (
+  `id` int(11) NOT NULL,
+  `username` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `status` enum('Super Admin','Marketing') NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+```
+
 ### Run
 just type this on your terminal
 ```
