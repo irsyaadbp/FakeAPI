@@ -6,11 +6,11 @@ RESTful API with NodeJS + ExpressJS + MySQL
 ### Clone Repository
 ```
 $ git clone https://github.com/masirsyaad/FakeAPI.git
-$ cd FakeAPI 
+$ cd FakeAPI
 ```
 
 ### Change Database
-change your database in `con.js`
+change your database in `conn.js`
 
 ```
 ...
